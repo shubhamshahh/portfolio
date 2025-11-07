@@ -25,6 +25,9 @@ body{
     font-size: 50px;
     margin-top: 20px;
 }
+.head-text h1{
+    color: #ff004f;
+}
 .contain{
     padding: 10px 10%;
 }
@@ -365,4 +368,5 @@ form input, form textarea {
     font-size: 18px;
     border-radius: 6px;
     box-sizing: border-box; 
+
 }
