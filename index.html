@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shubham Shah — Portfolio</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styless.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="description" content="Shubham Shah — Computer Engineering " />
+</head>
+<body>
+<div id="header">
+    <div class="contain">
+        <nav>
+            <img src="images/log.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+        <div class="head-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Shubham</span> Shah <br>From Ahemdabad</h1>
+        </div>
+    </div>
+</div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                
+                <div class="about-col-1">
+                    <h1 class="sub-tit">About Me</h1>
+                    
+                    <p>Hello! I'm Shubham Shah, a Computer Engineering student and web developer passionate about building interactive, responsive websites. My core skills include Java, Python, HTML, CSS, and JavaScript. I'm eager to collaborate on projects, learn from others, and contribute to meaningful tech solutions.</p>
+
+                    <div class="tab-tit">
+                        <p class="tab-links active" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span>Designerweb interfaces</li>
+                            <li><span>Web development</span>Web App development</li>
+                            <li><span>App Development</span>Building Android apps</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span>Intern at XYZ Corp</li>
+                            <li><span>2023</span>Freelance Web Developer</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2027 (Expected)</span>B.Tech Computer Engineering - Indus University</li>
+                            <li><span>2023</span>High School - ABC School</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="about-col-2">
+                    <img src="images/2222.png" alt="Shubham Shah">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<div id="Services">
+    <div class="containers">
+        <h1 class="sub-title">My services</h1>
+        <div class="container">
+        <div class="card" style="--clr:#249eff;">
+            <div class="box">
+                <div class="icon">
+                    <div class="iconBox"><ion-icon name="brush-outline"></ion-icon></div>
+                </div>
+                <div class="content">
+                    <h3>Design</h3>
+                    <p>To earn the respect (and eventually love) of your customers, you first have to respect those customers.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="--clr:#ff1f6b;">
+            <div class="box">
+                <div class="icon">
+                    <div class="iconBox"><ion-icon name="code-slash-outline"></ion-icon></div>
+                </div>
+                <div class="content">
+                    <h3>Development</h3>
+                    <p>To earn the respect (and eventually love) of your customers, you first have to respect those customers.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="--clr:#98ff21;">
+            <div class="box">
+                <div class="icon">
+                    <div class="iconBox"><ion-icon name="rocket-outline"></ion-icon></div>
+                </div>
+                <div class="content">
+                    <h3>Code</h3>
+                    <p>To earn the respect (and eventually love) of your customers, you first have to respect those customers.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i> shubhamshah7633@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +91-8849019883</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script>
+        // Simple JavaScript for the tabs
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            // Remove 'active' class from all links and contents
+            for(tablink of tablinks) {
+                tablink.classList.remove("active");
+            }
+            for(tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            
+            // Add 'active' class to the clicked link and its content
+            event.currentTarget.classList.add("active");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+</body>
+</html>
